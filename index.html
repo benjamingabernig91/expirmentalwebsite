@@ -71,6 +71,26 @@ rel="stylesheet"
 />
 
 <link rel="stylesheet" href="styles.css" />
+<style>
+  h1 {
+    font-size: clamp(2.4rem, 4.6vw, 4.2rem) !important;
+    max-width: 12ch !important;
+  }
+  .hero-copy {
+    top: clamp(1rem, 2vw, 2rem) !important;
+    bottom: auto !important;
+    max-height: calc(100% - clamp(2rem, 4vw, 4rem)) !important;
+    overflow: hidden !important;
+  }
+  /* push chamber/zoom to bottom-right so they never overlap hero-copy */
+  .signal-overlay {
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+  }
+  .signal-marker-block {
+    align-items: flex-end !important;
+  }
+</style>
   <script type="module">"use strict";(()=>{var O="0.5.1";var v={HIGHLIGHT_COLOR:"#0079F2",HIGHLIGHT_BG:"#0079F210",ALLOWED_PARENT_DOMAINS:[".replit.dev",".replit.com",".replit-staging.com",".repl.co"],THEME_PREVIEW_STYLE_ID:"replit-theme-preview",MAX_SIBLING_HIGHLIGHTERS:1e3,MAX_DESCENDANTS_FOR_SCREENSHOT:1500},ie=`
   [contenteditable] {
     outline: none !important;
@@ -241,7 +261,7 @@ theme / light
 <section class="hero">
 <div class="hero-copy">
 <p class="section-label">love = oxygen</p>
-<h1>Benjamin Gabernig.</h1>
+<h1>Benjamin Gabernig</h1>
 <p class="hero-intro">I design clear, thoughtful experiences.  Working across countries has taught me to  listen and design for people and planet.</p>
 
 <div class="status-panel">
