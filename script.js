@@ -1,8 +1,12 @@
 const lines = [
-  "designing calm, useful software",
-  "shipping Untired and building Soba",
-  "working across product, design, and code",
-  "making products feel clear and alive",
+  "the present moment always will have been.",
+  "simplicity is the ultimate sophistication.",
+  "to design is to communicate clearly.",
+  "beauty is truth in its purest form.",
+  "listen more than you speak.",
+  "less, but better.",
+  "the details are not the details. they make the design.",
+  "love is the only rational act.",
 ];
 
 const output = document.getElementById("status-line");
